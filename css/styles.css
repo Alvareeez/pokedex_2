@@ -1,0 +1,83 @@
+.body_index {
+    background-image: url("../img/mapa.kanto.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Lora', serif;
+}
+
+.body_index a {
+    text-decoration: none;
+    background-color: black;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#a_evee {
+    color: rgb(187, 146, 13);
+}
+
+#a_giratina {
+    color: rgb(94, 72, 72);
+}
+
+#a_snivy {
+    color: rgb(25, 192, 48);
+}
+
+#a_zoroark {
+    color: rgb(97, 61, 20);
+}
+
+.body_index h1 {
+    text-align: center;
+}
+
+.body_index span {
+    color: white;
+    background-color: rgba(6, 3, 204, 0.5);
+    padding: 10px;
+    border-radius: 20px 0px;
+}
+
+.body_index img {
+    width: 25%
+}
+
+.body_evee {
+    background-color: rgb(231, 194, 142);
+    font-family: 'Lora', serif;
+}
+
+.body_evee h1 {
+    text-align: center;
+    color: rgb(151, 116, 39);
+}
+
+.body_evee a {
+    text-decoration: none
+}
+
+.body_evee img {
+    width: 20%;
+}
+
+.body_evee p {
+    text-align: center;
+}
+
+.body_evee span {
+    background-color: gray;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+/* Media quiery para diseño responsive */
+
+@media only screen and (max-width: 600px) {
+    .body_index img,
+    .body_evee img {
+        width: 100%;
+    }
+}
