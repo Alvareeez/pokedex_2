@@ -118,6 +118,68 @@
     width: 25%;
 }
 
+
+/* Snivy */
+
+.body_snivy {
+    background-color: rgba(39, 145, 62, 0.705);
+    font-family: 'Lora', serif;
+}
+
+.body_snivy a {
+    text-decoration: none;
+}
+
+.body_snivy h1 {
+    text-align: center;
+    color: rgb(3, 105, 3);
+}
+
+.body_snivy p {
+    text-align: center
+}
+
+#span {
+    background-color: rgb(17, 216, 17);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.body_snivy img {
+    width: 25%;
+}
+
+
+/* Zoroark */
+
+.body_zoroark {
+    background-color: rgba(28, 20, 63, 0.705);
+    font-family: 'Lora', serif;
+}
+
+.body_zoroark a {
+    text-decoration: none;
+}
+
+.body_zoroark h1 {
+    text-align: center;
+    color: rgb(138, 29, 189);
+}
+
+.body_zoroark img {
+    width: 25%;
+}
+
+.body_zoroark p {
+    text-align: center
+}
+
+#span1 {
+    background-color: rgb(97, 61, 20);
+    padding: 3px;
+    border-radius: 5px;
+}
+
 @media only screen and (max-width: 600px) {
     .body_index img,
     .body_evee img {
